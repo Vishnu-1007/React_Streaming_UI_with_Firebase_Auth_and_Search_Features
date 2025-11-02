@@ -24,3 +24,4 @@ yarn-error.log*
 
 
 /src/utils/firebase.js
+/src/utils/secretKeys.js

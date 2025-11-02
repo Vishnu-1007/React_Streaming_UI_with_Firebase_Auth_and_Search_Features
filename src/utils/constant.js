@@ -2,6 +2,7 @@ export const LOGO = "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_produ
 
 export const USER_AVATAR = "https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABTZ2zlLdBVC05fsd2YQAR43J6vB1NAUBOOrxt7oaFATxMhtdzlNZ846H3D8TZzooe2-FT853YVYs8p001KVFYopWi4D4NXM.png?r=229";
 
+export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/7c9e63f7-5b5d-43a4-a3fb-41917ac25301/web/IN-en-20251013-TRIFECTA-perspective_7bc35267-b383-4fb3-b173-eae32292d42e_large.jpg"
 
 
 
@@ -14,10 +15,27 @@ export const API_OPTIONS = {
   },
 };
 
-// fetch("https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1", requestOptions)
+//  fetch("https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1", requestOptions)
 //   .then((response) => response.text())
 //   .then((result) => console.log(result))
 //   .catch((error) => console.error(error));
 
 
 export const IMG_CDN = "https://image.tmdb.org/t/p/w500";
+
+
+
+export const SUPPORTED_LANGUAGES = [{
+  identifer : "en", name : "English"
+},
+{
+  identifer : "hindi", name : "Hindi"
+},
+{
+  identifer : "spanish", name : "Spanish"
+}
+];
+
+
+
+
