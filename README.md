@@ -16,4 +16,4 @@ React, Firebase Auth, Firebase Realtime Database, CSS
 ## 🧠 How to run
 1. git clone …
 2. npm install
-3. npm start
+3. npm run dev
